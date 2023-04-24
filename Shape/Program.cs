@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            double length = 5.0; // Length of the rectangle
+            double width = 3.0; // Width of the rectangle
+            double area = length * width; // Formula to calculate the area
+            Console.WriteLine("The area of the rectangle is: " + area); // Print the area
         }
     }
 }
